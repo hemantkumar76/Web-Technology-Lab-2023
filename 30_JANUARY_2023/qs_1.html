@@ -1,0 +1,109 @@
+<!--Create a web page as follows: having 3 frames. KIIT University will movein marquee in the top frame. In the left frame 3 hyperlinks named Login, About KIIT andFeedback will be there and clicking on that the desired result will be displayed in the mainframe. -->
+<!-- This question i have divided in many parts first frame.html banao then ushme ye code dalo  -->
+<html>
+
+<head>
+    <title>1st Question</title>
+</head>
+<frameset rows="10%,90%">
+    <frame name="kiit univertsity" src="kiit.html">
+
+        <frameset cols="30%,70%">
+            <frame name="left" src="left.html" />
+            <frame name="right">
+
+        </frameset>
+
+
+</frameset>
+
+</html>
+
+<!-- THEN AGAIN CREATE kiit.html then ushme niche wala code dalo. -->
+<html>
+
+<head>
+    <marquee><b>KIIT University</b></marquee>
+</head>
+
+</html>
+
+<!--AAB  links.html -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h3>KIIT University</h3>
+    <p><a href="login.html" target="main">Login</a></p>
+    <p><a href="about.html" target="main">About KIIT</a></p>
+    <p><a href="feedback.html" target="main">Feedback</a></p>
+</body>
+
+</html>
+
+<!-- AAB login.html -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+<<!-- AAB feedback.html -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h3>Feedback Form</h3>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email">
+            </td>
+        </tr>
+    </table>
+</body>
+  
+<!-- LASTLY about.html -->
+  
+  <!DOCTYPE html>
+<html>
+
+<body>
+    <h3>About KIIT University</h3>
+    <table>
+        <tr>
+            <td>Location:</td>
+            <td>Bhubaneswar, India</td>
+        </tr>
+        <tr>
+            <td>Established:</td>
+            <td>1992</td>
+        </tr>
+        <tr>
+            <td>Website:</td>
+            <td><a href="https://www.kiit.ac.in">https://www.kiit.ac.in</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>
